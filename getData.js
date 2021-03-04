@@ -61,6 +61,7 @@ function renderArticle(articleData) {
   article.appendChild(removeButton);
 
   removeButton.addEventListener("click", function () {
+    console.log("remove article");
     article.remove();
   });
 
